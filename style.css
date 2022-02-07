@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    background-color: #F2F0D5;
+    font-family: 'Bree Serif', serif;
+}
+
+#cx{
+    margin: 50px auto 50px auto;
+    background-color: #F2C53D;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#cx h1{
+    text-align: center;
+}
+
+#texto{
+    margin: 5px 40px 10px 40px;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#botaoSalvar, #botaoExcluir{
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: #d6d5be;
+    cursor: pointer;
+}
+
+#botaoSalvar:hover{
+    background-color: #70c04b;
+}
+
+#botaoExcluir:hover{
+    background-color: #d42525cc;
+}
+
+.cx-lista{
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    background-color: #F2C53D;
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.itemLista{
+    text-align: center;
+    background-color: #d6d5be;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.itemLista:hover{
+    background-color: #70c04b;
+    text-decoration: line-through;
+}
