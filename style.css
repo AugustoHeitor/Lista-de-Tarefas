@@ -65,3 +65,33 @@ body{
     background-color: #70c04b;
     text-decoration: line-through;
 }
+
+@media screen and (max-width:500px){
+    #cx{
+        display: block;
+        margin: 50px auto 50px auto;
+        width: 300px;
+    }
+    
+    
+    #texto{
+        display: block;
+        margin: auto;
+        width: 220px;
+        padding: 5px;
+    }
+    
+    #botaoSalvar, #botaoExcluir{
+        font-size: 18px;
+    }
+    
+    #botaoSalvar{
+        margin: 20px 10px 15px 50px;
+    }
+
+    .cx-lista{
+        padding: 10px;
+        width: 80%;
+    }
+
+}
